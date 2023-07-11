@@ -27,7 +27,11 @@ namespace FirstProject
             Console.WriteLine("Enter the DOJ:");
             doj = DateTime.Parse(Console.ReadLine());
 
-            Console.WriteLine("Id: \t"+ id +"Name: \t"+ name +"Gender :\t"+ gender +"Date of Joining:\t "+ doj);
+            Console.WriteLine("ID\t"+"Name\t"+"Gender\t"+"Date of Joining");
+
+            Console.WriteLine("---------------------------------------------");
+
+            Console.WriteLine( id +"\t"+ name +"\t"+ gender +"\t "+ doj);
 
             double taxRate = 0.15;
             if (salary > 90000)
