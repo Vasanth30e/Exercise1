@@ -31,7 +31,7 @@ namespace FirstProject
 
             Console.WriteLine("---------------------------------------------");
 
-            Console.WriteLine( id +"\t"+ name +"\t"+ gender +"\t "+ doj);
+            Console.WriteLine( id +"\t"+ name +"\t"+ gender +"\t "+ doj+"\n");
 
             double taxRate = 0.15;
             if (salary > 90000)
